@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Example showing the use of the swagger-autogen module.",
   "main": "index.js",
+  "type": "module",
   "readmeFilename": "README.md",
   "private": false,
   "keywords": [
@@ -21,7 +22,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "start-gendoc": "node swagger.js"
+    "api-docs": "node api-docs.js"
   },
   "dependencies": {
     "express": "^4.17.1",
